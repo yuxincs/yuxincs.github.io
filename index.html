@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Yuxin Wang — Senior Software Engineer and Tech Lead at Uber. Experience, education, skills, and research in AI for code and static analysis." />
+    <meta name="color-scheme" content="light" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Yuxin Wang — Resume</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+    <div class="resume-page">
+      <header class="resume-header">
+        <div class="header-copy">
+          <h1>Yuxin <span class="name-accent">Wang</span></h1>
+          <p class="headline">Senior Software Engineer · Tech Lead · Ph.D.</p>
+          <p class="location">New York, NY</p>
+          <a class="email" href="mailto:yuxinwang.dev@gmail.com">yuxinwang.dev@gmail.com</a>
+          <div class="profile-links" aria-label="Profiles and resume">
+            <a href="https://github.com/yuxincs">GitHub <span aria-hidden="true">↗</span></a>
+            <a href="https://linkedin.com/in/yuxincs">LinkedIn <span aria-hidden="true">↗</span></a>
+            <a href="https://scholar.google.com/citations?user=PLhQliEAAAAJ&amp;hl=en">Google Scholar <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="portrait-frame">
+          <img class="portrait" src="photo.jpg" alt="Portrait of Yuxin Wang" width="881" height="881" fetchpriority="high" />
+        </div>
+      </header>
+
+      <main id="content">
+        <section class="summary" aria-labelledby="summary-heading">
+          <h2 id="summary-heading">About Me</h2>
+          <p>Software engineer and open-source contributor focused on <strong>AI for code, static analysis, and programming systems</strong>. I build agentic systems and developer tools that improve code quality, reliability, and developer productivity.</p>
+          <p>I'm currently a Senior Software Engineer at Uber, building tools that automate code cleanup and review, detect bugs, and improve microservice reliability. My work combines AI agents with static analysis to help engineers maintain large codebases and ship reliable software more efficiently.</p>
+          <p>I received my Ph.D. from Penn State, advised by <a href="https://users.cs.duke.edu/~dz132/">Dr. Danfeng Zhang</a> and <a href="https://www.cse.psu.edu/~duk17/">Dr. Daniel Kifer</a>.</p>
+        </section>
+
+        <section id="experience" aria-labelledby="experience-heading">
+          <h2 id="experience-heading">Experience</h2>
+          <article class="job">
+            <div class="entry-header">
+              <div><h3>Uber Technologies Inc.</h3><p class="entry-role">Senior Software Engineer — Tech Lead</p></div>
+              <div class="entry-meta"><p>June 2022–present</p><p>New York, NY</p></div>
+            </div>
+            <div class="initiative">
+              <div class="project-title-row">
+                <h4><svg class="project-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m13.5 9.5 6-6a1.4 1.4 0 0 1 2 2l-6 6"/><path d="m10 10 4 4M9.3 9.3a1 1 0 0 1 1.4 0l4 4a1 1 0 0 1 0 1.4l-3.8 5a2 2 0 0 1-2.7.5l-4.4-2.6a1 1 0 0 1-.3-1.4l5.8-6.9Z"/><path d="m6 18 4-5m-1.2 6.7 3.3-4.6"/></svg> AutoClean <span>Agentic code cleanup</span></h4>
+              </div>
+              <div class="project-summary">
+                <p>I led a team of engineers to build AutoClean, combining agents and static analysis to remove <strong>1 million lines of dead code in two years</strong>. The system reduced stale flags and plugins from over 30% to below 7%, with <strong>95%+ developer acceptance</strong>.<span class="collaborators">With Stefan Heule, Diego Marcilio, Daniel Ramos, and Nikhil Parasaram.</span></p>
+              </div>
+            </div>
+            <div class="initiative">
+              <div class="project-title-row">
+                <h4><svg class="project-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 8 3v6c0 5-8 9-8 9s-8-4-8-9V6l8-3Z"/><path d="m8 12 3 3 5-6"/></svg> <a href="https://github.com/uber-go/nilaway">NilAway <span aria-hidden="true">↗</span></a> <span>Go nil-panic detection</span></h4>
+                <a class="learn-more" href="https://www.uber.com/us/en/blog/nilaway-practical-nil-panic-detection-for-go/" aria-label="Learn more about NilAway in the Uber engineering blog">[Learn More]</a>
+              </div>
+              <div class="project-summary">
+                <p>NilAway is a static analysis tool that detects potential crashes caused by accessing nil values in Go. I co-led its development and rollout across <strong>70 million lines of Go</strong>, detecting 500+ potential nil panics monthly, and built an <strong>agentic system to propose and validate fixes</strong> that helped reduce reported nil panics by <strong>80%+ in six months</strong> in one of Uber's largest organizations.<span class="collaborators">With Lazaro Clapp, Julia Turcotti, and Sonal Mahajan.</span></p>
+              </div>
+            </div>
+            <div class="initiative">
+              <div class="project-title-row">
+                <h4><svg class="project-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="16" y="16" width="6" height="6" rx="1"/><path d="M12 9v4H5v3m7-3h7v3"/></svg> <a href="https://github.com/uber-research/rpcshield">RPCShield <span aria-hidden="true">↗</span></a> <span>Microservice reliability</span></h4>
+                <a class="learn-more" href="https://dl.acm.org/doi/10.1145/3830418.3843878" aria-label="Learn more about RPCShield in the research paper">[Learn More]</a>
+              </div>
+              <div class="project-summary">
+                <p>I led RPCShield's inbound and outbound dependency analysis and infrastructure, identifying <strong>1,000+ cross-tier fail-close violations in one year</strong>. This exposed cascading-failure risks and supported more efficient CPU allocation. I also expanded RPCShield's scope to power cross-organizational initiatives such as finer-grained service criticality classification.<span class="collaborators">With Milind Chabbi, Sonal Mahajan, Yufan Xu, and many others at Uber.</span></p>
+              </div>
+            </div>
+            <div class="initiative">
+              <div class="project-title-row">
+                <h4><svg class="project-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m7 5-5 7 5 7m10-14 5 7-5 7M10 8h4m-2-2v4m-2 6h4"/></svg> <a href="https://github.com/uber-research/last-diff-analyzer">Last Diff Analyzer <span aria-hidden="true">↗</span></a> <span>Automated code review</span></h4>
+                <a class="learn-more" href="https://dl.acm.org/doi/10.1145/3611643.3613870" aria-label="Learn more about Last Diff Analyzer in the research paper">[Learn More]</a>
+              </div>
+              <div class="project-summary">
+                <p>I built and deployed Last Diff Analyzer, eliminating manual review for <strong>14%+ of code changes</strong> through automated checks for behavior-preserving revisions. I partnered with the testing team to integrate it into CI, saving <strong>thousands of testing hours weekly</strong>.<span class="collaborators">With Adam Welc and Lazaro Clapp.</span></p>
+              </div>
+            </div>
+          </article>
+
+          <article class="job">
+            <div class="entry-header">
+              <div><h3>Pennsylvania State University</h3><p class="entry-role">Research Assistant</p></div>
+              <div class="entry-meta"><p>August 2017–May 2022</p><p>State College, PA</p></div>
+            </div>
+            <ul>
+              <li>Published six papers at CCS, PLDI, and VLDB on automated synthesis, verification, and improvement of differentially private algorithms and code.</li>
+              <li>Earned CCS 2021 Best Paper Award Runner-Up, CCS 2020 Distinguished Paper nomination, and CCS 2018 Outstanding Paper Award.</li>
+            </ul>
+          </article>
+        </section>
+
+        <section id="education" aria-labelledby="education-heading">
+          <h2 id="education-heading">Education</h2>
+          <article class="education-entry">
+            <div class="entry-header">
+              <div><h3>Ph.D. in Computer Science and Engineering</h3><p class="entry-role">Pennsylvania State University</p></div>
+              <p class="entry-meta">August 2017–May 2022</p>
+            </div>
+            <p class="advisers">Advisers: Daniel Kifer and Danfeng Zhang</p>
+          </article>
+          <article class="education-entry">
+            <div class="entry-header">
+              <div><h3>B.E. in Computer Science</h3><p class="entry-role">Huazhong University of Science and Technology</p></div>
+              <p class="entry-meta">September 2013–May 2017</p>
+            </div>
+          </article>
+        </section>
+
+        <section id="skills" aria-labelledby="skills-heading">
+          <h2 id="skills-heading">Skills &amp; interests</h2>
+          <dl class="skills">
+            <div><dt>Languages</dt><dd>Proficient in Python, Go, and C/C++; familiar with Java, JavaScript/TypeScript, SQL, and MIPS assembly.</dd></div>
+            <div><dt>Tools &amp; frameworks</dt><dd>go/analysis, Bazel, Docker, CPAchecker, KLEE, and SMT solvers including Z3.</dd></div>
+            <div><dt>Open source</dt><dd>Regular contributor to <a href="https://github.com/home-assistant/core/pulls?q=is%3Apr+author%3Ayuxincs">Home Assistant</a> and maintainer of developer tools.</dd></div>
+            <div><dt>Homelab</dt><dd>Proxmox, LXC and Docker containers, self-hosted services, DNS resolvers, and home automation.</dd></div>
+          </dl>
+        </section>
+
+        <section id="publications" aria-labelledby="publications-heading">
+          <div class="section-title"><h2 id="publications-heading">Selected publications</h2><a href="https://scholar.google.com/citations?user=PLhQliEAAAAJ&amp;hl=en">Full list on Google Scholar <span aria-hidden="true">↗</span></a></div>
+          <ol class="publications">
+            <li><span class="publication-year">2026</span><div><h3><a href="https://dl.acm.org/doi/10.1145/3830418.3843878">RPCShield: Defending Microservices Against Cascading Failures <span aria-hidden="true">↗</span></a></h3><p>SOSP</p></div></li>
+            <li><span class="publication-year">2023</span><div><h3><a href="https://dl.acm.org/doi/10.1145/3611643.3613870">Last Diff Analyzer: Multi-language Automated Approver for Behavior-Preserving Code Revisions <span aria-hidden="true">↗</span></a></h3><p>ESEC/FSE</p></div></li>
+            <li><span class="publication-year">2021</span><div><h3><a href="https://arxiv.org/abs/2109.07441">DPGen: Automated Program Synthesis for Differential Privacy <span aria-hidden="true">↗</span></a></h3><p>CCS <span aria-hidden="true">·</span> <span class="award">Best Paper Award Runner-Up</span></p></div></li>
+            <li><span class="publication-year">2020</span><div><h3><a href="https://arxiv.org/abs/2008.07485">CheckDP: An Automated and Integrated Approach for Proving Differential Privacy or Finding Precise Counterexamples <span aria-hidden="true">↗</span></a></h3><p>CCS <span aria-hidden="true">·</span> <span class="award">Distinguished Paper Award Nominee</span></p></div></li>
+            <li><span class="publication-year">2018</span><div><h3><a href="https://arxiv.org/abs/1805.10277">Detecting Violations of Differential Privacy <span aria-hidden="true">↗</span></a></h3><p>CCS <span aria-hidden="true">·</span> <span class="award">Outstanding Paper Award</span></p></div></li>
+          </ol>
+        </section>
+      </main>
+      <footer><span>Yuxin Wang · New York</span><a href="mailto:yuxinwang.dev@gmail.com">Say hello <span aria-hidden="true">↗</span></a></footer>
+    </div>
+  </body>
+</html>
